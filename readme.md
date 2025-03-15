@@ -1,6 +1,6 @@
 #  file encryption and send to Pastebin
 
-this is the simple program that testing for detection to taking out file 
+this is the simple program that testing for security software detection to taking out file 
 
 change this section to your pastebin API key
 ```
