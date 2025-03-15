@@ -66,8 +66,8 @@ func postToPastebin(content []byte) (string, error) {
 func main() {
 	// argument check
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: go run main.go <filename>")
-		fmt.Println("Example: go run main.go secret.txt")
+		fmt.Println("Usage: go run encode.go <filename>")
+		fmt.Println("Example: go run encode.go secret.txt")
 		os.Exit(1)
 	}
 
