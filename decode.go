@@ -51,8 +51,8 @@ func fetchPastebinRaw(pastebinURL string) ([]byte, error) {
 func main() {
 	// argument check
 	if len(os.Args) < 3 {
-		fmt.Println("Usage: go run decrypt.go <pastebin_url> <output_filename>")
-		fmt.Println("Example: go run decrypt.go https://pastebin.com/xxxxxxxx restored.txt")
+		fmt.Println("Usage: go run decode.go <pastebin_url> <output_filename>")
+		fmt.Println("Example: go run decode.go https://pastebin.com/xxxxxxxx restored.txt")
 		os.Exit(1)
 	}
 
