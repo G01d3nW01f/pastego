@@ -1,6 +1,8 @@
 #  file encryption and send to Pastebin
 
-this is the simple program that testing for security software detection to taking out file 
+This program is designed to test the level at which security products can detect file exfiltration.
+The program specified as an argument is encrypted using a simple XOR cipher and then uploaded to Pastebin.
+It is also possible to retrieve it from the URL and decrypt it locally.
 
 change this section to your pastebin API key
 ```
